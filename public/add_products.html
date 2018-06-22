@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add product</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <script src="shop.js"></script>
+    <script src="add_products.js"></script>
+
+</head>
+
+<body>
+    <h1 class="text-center mt-5">Add Product</h1>
+    <form class="w-50 m-auto">
+        <div class="form-group mt-5">
+            <label for="exampleInputName">Product Name</label>
+            <input type="text" id="productName" class="form-control" aria-describedby="emailHelp" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPrice">Price</label>
+            <input type="number" id="productPrice" class="form-control" placeholder="price">
+        </div>
+
+        <input type="file" class="form-control-file">
+        <br>
+        <center>
+            <button type="submit" class="btn btn-primary btn-outline-danger " id="btnAddProduct">Add Product</button>
+        </center>
+    </form>
+</body>
+
+</html>
