@@ -1,4 +1,7 @@
-# E-commerce-website
+![My Cart](https://github.com/Ni3verma/E-commerce-website/blob/master/screenshots/my_cart.png)
+# see screenshots folder for other pics
+
+### E-commerce-website
 assignment done in nagarro bootcamp
 
 It uses sequelize(sql2),
