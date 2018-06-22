@@ -23,7 +23,8 @@ $(function () {
                 $.get('/api/cart/addToCart',
                     { uid: uid, pid: pid },
                     function (count) {
-                        console.log('item count=' + count);
+                        alert('Item added..!!'+'\nQuantity='+count)
+                        //console.log('item count=' + count);
                     }
                 )
             }
